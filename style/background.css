@@ -1,0 +1,44 @@
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background__animation1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background__animation1 .circle1 {
+  filter: blur(20px);
+  width: 60%;
+  max-width: 500px;
+  aspect-ratio: 1/1;
+  margin-right: -10%;
+  border-radius: 50%;
+  opacity: 0.4;
+  background-image: radial-gradient(
+    rgba(140, 200, 249, 1),
+    rgba(255, 255, 255) 80%
+  );
+}
+
+.background__animation1 .circle2 {
+  filter: blur(20px);
+  width: 60%;
+  max-width: 500px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  opacity: 0.4;
+  background-image: radial-gradient(
+    rgb(255, 212, 113),
+    rgba(255, 255, 255) 80%
+  );
+}

@@ -1,0 +1,50 @@
+.sitelist {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 10vw));
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  min-width: 300px;
+  height: 70%;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.sitelist__button {
+  position: relative;
+
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sitelist__button a {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.sitelist__button-front {
+  width: 60%;
+  aspect-ratio: 1/1;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgba(0, 78, 195, 0.5);
+  opacity: 0.8;
+  transition: all 0.2s linear;
+}
+
+.sitelist__button a:hover > .sitelist__button-front {
+  transform: translateY(-10px);
+  opacity: 1;
+}
