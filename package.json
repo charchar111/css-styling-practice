@@ -1,0 +1,16 @@
+{
+  "name": "css-styling-practice",
+  "version": "1.0.0",
+  "description": "## 컨셉",
+  "main": "index.js",
+  "scripts": {
+    "assets": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
